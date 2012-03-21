@@ -12,6 +12,9 @@ also handled.
 Lg.d("This is a log message");
 
 // Accepts any number of objects
-Lg.e("Oh noes! That was an error!", someException, stats_code)
+Lg.e("Oh noes! That was an error!", someException, status_code);
+
+// Supports the Android d (Debug), i (Information), v (Verbose), e (Error) and w (Warn) tags
+Lg.w("I'm warning you!, that was the last straw!");
 
 ```
