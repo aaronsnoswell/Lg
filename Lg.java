@@ -1,4 +1,4 @@
-package com.tallpixel.mobile.utils;
+package net.tallpixel.mobile.utils;
 
 import android.util.Log;
 
